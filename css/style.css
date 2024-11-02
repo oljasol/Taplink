@@ -38,3 +38,38 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
+.container {
+  max-width: 340px;
+  margin: auto;
+  border-radius: 11px;
+  box-shadow: 0px 0px 27.1px 0px rgba(120, 120, 120, 0.25);
+}
+.user {
+  padding-bottom: 20px;
+  margin-top: -30px;
+  text-align:center;
+  background: rgb(255, 255, 255);
+  border-radius: 11px;
+}
+.user-avatar{
+  object-fit: cover;
+  margin-top: -80px;
+}
+.user-name {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.user-description {
+color: rgb(106, 100, 100);
+font-style: italic;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+}
